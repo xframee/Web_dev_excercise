@@ -6,52 +6,58 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="store.html">Butik</a></li>
                     <li><a href="about.html">Om</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Kendrick Lamar</h1>
+            <h1 class="artist-name artistname-large">Kendrick Lamar</h1>
         </header>
-        <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div><strong>Album 1</strong></div>
-            </div>
-            <img src="images\GKMD.jpg" alt="Good kid mad city album cover">
-            <div>
-                <span>149 kr.</span>
-                <button role="button">Tilføj til kurv</button>
-            </div>
-            <div>
-                <div><strong>Album 2</strong></div>
-            </div>
-            <img src="images\TPAPCover.png" alt="To pimp a butterfly album cover">
-            <div>
-                <span>149 kr.</span>
-                <button role="button">Tilføj til kurv</button>
-            </div>
-            <div>
-                <div><strong>Album 3</strong></div>
-            </div>
-            <img src="images\UntitledUnmastered.jpg" alt="Untitled Unmastered album cover">
-            <div>
-                <span>149 kr.</span>
-                <button role="button">Tilføj til kurv</button>
-            </div>
-            <div>
-                <div><strong>Album 4</strong></div>
-            </div>
-            <img src="images\damn.png" alt="Damn album cover">
-            <div>
-                <span>149 kr.</span>
-                <button role="button">Tilføj til kurv</button>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-image" src="images\GKMD.jpg" alt="Good kid mad city album cover">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">149 kr.</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">Tilføj til kurv</button>
+                </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="images\TPAPCover.png" alt="To pimp a butterfly album cover">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">149 kr.</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">Tilføj til kurv</button>
+                </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image" src="images\UntitledUnmastered.jpg" alt="UntitledUnmastered album cover">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">149 kr.</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">Tilføj til kurv</button>
+                </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="images\damn.png" alt="Damn album cover">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">149 kr.</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">Tilføj til kurv</button>
+                </div>
+                </div>
             </div>
         </section>
 
